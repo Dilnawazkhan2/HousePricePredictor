@@ -41,7 +41,7 @@ form.addEventListener("submit", async (e) => {
 const heroButton = document.getElementById("predictBtn");
 
 heroButton.addEventListener("click", () => {
-    document.getElementById("prediction").scrollIntoView({
+    document.getElementById("predictSection").scrollIntoView({
         behavior: "smooth",
         block: "start"
     });
